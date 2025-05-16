@@ -1,6 +1,6 @@
 # 🛡️ Solana Wallet Risk Profiler Dashboard
 
-This Streamlit dashboard provides real-time, data-driven wallet risk analysis on the Solana blockchain, powered by machine learning and a FastAPI Backend. It helps investors, researchers, and security analysts assess the likelihood that a wallet is involved in fraudulent or scam-like behaviour.
+This Streamlit dashboard provides real-time, data-driven wallet risk analysis on the Solana blockchain, powered by machine learning and a FastAPI Backend. It helps investors, researchers, and security analysts like me assess the likelihood that a wallet is involved in fraudulent or scam-like behaviour. Happy Testing!🎉
 
 ## 🚀 What It Does
 
@@ -41,8 +41,11 @@ And see:
 # ⚙ Tech Stack
 
 Frontend: Streamlit
+
 Backend: FastAPI
+
 ML: XGBoost (trained with pandas & scikit-learn)
+
 Data: Solana blockchain via Helius API
 
 # 🧪Try It Out (Coming Soon)
