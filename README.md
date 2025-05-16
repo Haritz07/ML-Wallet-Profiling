@@ -4,7 +4,7 @@ This Streamlit dashboard provides real-time, data-driven wallet risk analysis on
 
 ## 🚀 What It Does
 
- Accepts a Solana wallet address input
+ Accepts a Solana wallet address input 
  Pulls transaction history and metadata using the Helius API
  Extracts 9 behavioural features per wallet (e.g. inflow/outflow, mint patterns)
  Feeds features into a trained XGBoost classifier
@@ -19,7 +19,7 @@ This dashboard connects to a deployed FastAPI backend that:
 
   3. Returns a prediction to the dashboard via an API call
 
-The ML model was trained on labelled on-chain data collected via Helius, using 9 core features (see paper or section 7 of this repo for details). Accuracy on test data: 92%, F1 Score: 0.91.
+The ML model was trained on labelled on-chain data collected via Helius, using 9 core features (see Medium post linked below for more details). Accuracy on test data: 92%, F1 Score: 0.91.
 
 # 📊 Example Use Case
 
@@ -53,3 +53,5 @@ Data: Solana blockchain via Helius API
 Streamlit App: https://ml-wallet-profiling-gpxt8tkpb8pt2tcmpdpqug.streamlit.app/
 
 API Endpoint: 
+
+Medium article explaining the thought process behind it all:
