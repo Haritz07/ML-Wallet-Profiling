@@ -1,15 +1,15 @@
 # 🛡️ Solana Wallet Risk Profiler Dashboard
 
-This Streamlit dashboard provides real-time, data-driven wallet risk analysis on the Solana blockchain, powered by machine learning and a FastAPI Backend. It helps investors, researchers, and security analysts assess the likelihood that a wallet is involved in fraudulent or scam-like behavior.
+This Streamlit dashboard provides real-time, data-driven wallet risk analysis on the Solana blockchain, powered by machine learning and a FastAPI Backend. It helps investors, researchers, and security analysts assess the likelihood that a wallet is involved in fraudulent or scam-like behaviour.
 
 ## 🚀 What It Does
 
-# Accepts a Solana wallet address input
-# Pulls transaction history and metadata using the Helius API
-# Extracts 9 behavioural features per wallet (e.g. inflow/outflow, mint patterns)
-# Feeds features into a trained XGBoost classifier
-# Returns a risk label (Safe or High-Risk) with model confidence
-# Displays a clean visual summary of the wallet's behaviour
+ Accepts a Solana wallet address input
+ Pulls transaction history and metadata using the Helius API
+ Extracts 9 behavioural features per wallet (e.g. inflow/outflow, mint patterns)
+ Feeds features into a trained XGBoost classifier
+ Returns a risk label (Safe or High-Risk) with model confidence
+ Displays a clean visual summary of the wallet's behaviour
 
 ## 💡 How It Works
 This dashboard connects to a deployed FastAPI backend that:
@@ -28,7 +28,9 @@ Enter a Solana wallet address like:
 
 And see:
   Risk classification: High Risk 🚨 or Safe ✅
+  
   Confidence score (0.0 – 1.0)
+  
   Behavioural breakdown (tx volume, mint history, suspicious patterns)
 
 # ⚠️ Limitations
@@ -44,5 +46,7 @@ ML: XGBoost (trained with pandas & scikit-learn)
 Data: Solana blockchain via Helius API
 
 # 🧪Try It Out (Coming Soon)
+
 Streamlit App: https://ml-wallet-profiling-gpxt8tkpb8pt2tcmpdpqug.streamlit.app/
+
 API Endpoint: 
