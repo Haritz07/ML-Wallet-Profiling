@@ -8,7 +8,8 @@ from datetime import datetime, timezone
 # 1. Streamlit page config
 st.set_page_config(page_title="Wallet Profiling Dashboard", layout="wide")
 
-API_URL = "http://127.0.0.1:8000/predict-wallet-risk"
+# Updated to render live url
+API_URL = "https://the-haritz-ml-tool.onrender.com/predict-wallet-risk"
 
 # 2. Title
 st.markdown("# 🔍 Wallet Profiling Dashboard") # the emoji works as an icon :)
